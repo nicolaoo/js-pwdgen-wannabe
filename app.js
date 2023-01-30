@@ -17,3 +17,5 @@
 // 5.Con i dati dell'utente creare una password
     const passwordElement = document.getElementById('password-title');
     passwordElement.innerHTML = firstName + surname + color + number;
+    console.log(passwordElement);
+    console.log(passwordElement.innerHTML);
