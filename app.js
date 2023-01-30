@@ -18,6 +18,8 @@
 
 let passTitle = document.getElementById('password-title');
 passTitle.innerHTML = 'Complimenti'+ ' ' + firstName + ' ' + 'questa è la tua nuova password:';
+console.log(passTitle);
+console.log(passTitle.innerHTML);
 
 
 let passwordElement = document.getElementById('password');
